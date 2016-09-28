@@ -1,5 +1,5 @@
 {
-    "name": "Room Preview",
+    "name": "Single Room Preview",
     "permissions": {
         "network": "Has to fetch schedule from remote site"
     },
@@ -23,14 +23,14 @@
         "ui_width": 4,
         "name": "font",
         "type": "font",
-        "default": "silkscreen.ttf"
+        "default": "DejaVuSansMono.ttf"
     }, {
         "title": "Background",
         "ui_width": 4,
         "name": "background",
         "type": "resource",
         "valid": ["image", "video", "child"],
-        "default": "empty.png"
+        "default": "systemdconf.png"
     }, {
         "title": "Logo",
         "ui_width": 4,
@@ -56,7 +56,7 @@
             ["Europe/Berlin", "Europa / Berlin"]
         ],
         "default": "UTC"
-    },  
+    },
 
     {
         "title": "Slides",
@@ -85,7 +85,7 @@
         "type": "duration",
         "hint": "How long to display room information",
         "default": 10
-    },  
+    },
 
     {
         "title": "Scheduling",

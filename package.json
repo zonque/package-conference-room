@@ -1,6 +1,5 @@
 {
-    "name": "Conference Room Announcement",
+    "name": "Single Conference Room",
     "author": "fw@dividuum.de",
-    "desc": "Show information about upcoming talks",
-    "repository": "https://github.com/info-beamer/package-conference-room"
+    "desc": "Show information about current and upcoming talks"
 }
